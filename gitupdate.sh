@@ -4,7 +4,9 @@ cd $1
 
 git add --all
 
-read -p 'Commit message: ' commitmessage
+IFS = $'\n'
+
+read -p "Commit message:" commitmessage
 git commit -m \"$commitmessage\"
 
 git push -u origin master
