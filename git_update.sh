@@ -4,7 +4,7 @@ cd $1
 
 git add --all
 
-IFS='\s'
+IFS=$'\04'
 
 read -p "Commit message:" commitmessage
 git commit -m \"$commitmessage\"
