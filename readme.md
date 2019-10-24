@@ -3,6 +3,9 @@
 ## - create_config.sh
 Used to create client config files for Open VPN servers
 
+## - collect_in_folder.sh
+Moves all the files in the folders matching the given string to the specified folder
+
 ## - git_update.sh
 Stages, commits and pushes the code in a single command. Takes path to the repo as the argument
 
